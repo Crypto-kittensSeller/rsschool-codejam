@@ -1,4 +1,4 @@
-function make(...args){
+module.exports = function make(...args){
     const allArgs = [];
     return checkFoo(args);
 
